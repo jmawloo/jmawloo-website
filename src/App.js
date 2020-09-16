@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MsgBox from './components/MsgBox/MsgBox';
+import ContactBox from './components/ContactBox/ContactBox';
+import './App.scss';
+import landingCopy from './static/copy/landing-page.json';
+
+import DesktopProfile from './static/img/desktop-profile.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MsgBox id="landing-message" landCopy={landingCopy} />
+      <div id="landing-bottom">
+        <ContactBox />
+        <img className="desktop-profile" src={DesktopProfile} alt="Me pointing to my introduction message" />
+      </div>
     </div>
   );
 }

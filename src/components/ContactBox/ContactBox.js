@@ -1,14 +1,27 @@
 import React from "react";
 import ContactItem from "./ContactItem";
-import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import { faFilePdf, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
+import contactList from "../../static/copy/contact-links.json";
+
+// Unfortunately you have to import the icons from the source code :(
+const icons = [faFilePdf, faLinkedin, faGithub, faEnvelope];
+
 const ContactBox = () => {
+    const renderContactItems = (contacts, icons) => {
+        let key = -1;
+        return contacts.map((contact) => {
+            key += 1;
+            return (
+                <ContactItem key={key} icon={icons[key]} name={contact.title} link={contact.link} />
+            );
+        })
+    }
+
     return (
         <div className="text-box contact-box">
-            <ContactItem icon={faFilePdf} name={"Resume"} link="somelinktoresume" />
-            <ContactItem icon={faLinkedin} name={"LinkedIn"} link="somelinktoresume" />
-            <ContactItem icon={faGithub} name={"GitHub"} link="somelinktoresume" />
+            {renderContactItems(contactList.contacts, icons)}
         </div>
     );
 };

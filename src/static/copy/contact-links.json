@@ -1,0 +1,8 @@
+{
+    "contacts": [
+        {"title": "Resume", "link": "jmawloo.githubpages.io/resume"},
+        {"title": "LinkedIn", "link": "https://www.linkedin.com/in/jma-wloo"},
+        {"title": "GitHub", "link": "https://github.com/jmawloo"},
+        {"title": "Mail", "link": "mailto:jeff.ma@uwaterloo.ca"}
+    ]
+}

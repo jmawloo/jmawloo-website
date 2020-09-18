@@ -5,6 +5,7 @@ import './App.scss';
 import landingCopy from './static/copy/landing-page.json';
 
 import DesktopProfile from './static/img/desktop-profile.jpg';
+import MobileProfile from './static/img/mobile-profile.png';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <MsgBox id="landing-message" landCopy={landingCopy} />
       <div id="landing-bottom">
         <ContactBox />
-        <img className="desktop-profile" src={DesktopProfile} alt="Me pointing to my introduction message" />
+        <img className="profile desktop-profile" src={DesktopProfile} alt="Me pointing top-left to my introduction message." />
+        <img className="profile mobile-profile" src={MobileProfile} alt="Me pointing up to my introduction message." />
       </div>
     </div>
   );

@@ -14,6 +14,7 @@ const MsgBox = (props) => {
         <StyledMsgBox className="content-box message-box">
             <h1>{props.landCopy.header}</h1>
             <p>{props.landCopy.blurb}</p>
+            <p id="more-blurb">{props.landCopy.moreBlurb}</p>
         </StyledMsgBox>
     );
 }

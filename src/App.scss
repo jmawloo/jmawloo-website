@@ -31,7 +31,7 @@ h1 {
   margin-bottom: 10px;
 
   @media (max-width: $breakpoint-mobile) {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 
@@ -39,7 +39,7 @@ p {
   font-size: 18px;
   text-align: justify;
 
-  @media (max-width: $breakpoint-mobile) {
+  @media (max-width: $breakpoint-tablet) {
     font-size: 14px;
   }
 }
@@ -133,7 +133,7 @@ a {
 }
 
 .profile {
-  width: calc(10vw + 200px);
+  width: calc(10vw + 150px);
 }
 
 /*Desktop profile image*/
@@ -145,7 +145,7 @@ a {
 
 /*Mobile profile image*/
 .mobile-profile {
-  margin: 50px 0;
+  margin: 20px 0;
   @media (min-width: $breakpoint-tablet+1) {
     display: none;
   }

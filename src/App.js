@@ -13,8 +13,8 @@ function App() {
       <MsgBox id="landing-message" landCopy={landingCopy} />
       <div id="landing-bottom">
         <ContactBox />
-        <img className="profile desktop-profile" src={DesktopProfile} alt="Me pointing top-left to my introduction message." />
-        <img className="profile mobile-profile" src={MobileProfile} alt="Me pointing up to my introduction message." />
+        <img className="content-box profile desktop-profile" src={DesktopProfile} alt="Me pointing top-left to my introduction message." />
+        <img className="content-box profile mobile-profile" src={MobileProfile} alt="Me pointing up to my introduction message." />
       </div>
     </div>
   );

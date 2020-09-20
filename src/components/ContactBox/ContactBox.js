@@ -20,7 +20,7 @@ const ContactBox = () => {
     }
 
     return (
-        <div className="text-box contact-box">
+        <div className="content-box contact-box">
             {renderContactItems(contactList.contacts, icons)}
         </div>
     );

@@ -5,7 +5,7 @@ import './App.scss';
 import landingCopy from './static/copy/landing-page.json';
 
 import DesktopProfile from './static/img/desktop-profile.jpg';
-import MobileProfile from './static/img/mobile-profile.png';
+import MobileProfile from './static/img/mobile-profile.jpg';
 
 function App() {
   return (

@@ -1,5 +1,8 @@
 {
     "header": "Hi! I'm Jeff",
-    "blurb": "I'm a passionate developer who's currently in his 2B Computer Engineering term at the University of Waterloo. Some of my hobbies include doing daily Leetcode challenges, working on small programming projects, taking courses on coding, and much more!",
-    "moreBlurb": "This is optional text to show if your screen is long enough! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "blurb": [
+        "I'm a passionate developer who's currently in his 2B Computer Engineering term at the University of Waterloo. Some of my hobbies include doing daily Leetcode challenges, working on small programming projects, and taking coding courses on Machine Learning and embedded systems!",
+        "I was especially involved with web and mobile application design in my previous coop terms. I prototyped an app that allows users to manage and use their appliances using Swift and SQLite. I also built a data exporter tool that automates the creation of important reports using PHP, jQuery, Bootstrap, HTML and PostgreSQL. During my most recent coop term, I worked on many more projects, ranging from building a feedback tool using Material UI, React and MySQL to writing a PHP script that converts old course content into a more modern format.",
+        "As of now, I’m on my study term learning about signals and systems with a particular interest in Systems Programming and Concurrency in C. Some of my future interests involve working on projects that tie together the Internet of Things, Machine Learning and Web Development. I hope you enjoy looking into the things I’ve worked on as much as I did!"
+    ]
 }

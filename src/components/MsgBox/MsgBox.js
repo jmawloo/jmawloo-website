@@ -10,11 +10,16 @@ const StyledMsgBox = styled.div`
 `;
 
 const MsgBox = (props) => {
+    const getParagraphs = () => {
+        return props.landCopy.blurb.map(para => {
+            return <p>{para}</p>;
+        });
+    }
+
     return (
         <StyledMsgBox className="content-box message-box">
             <h1>{props.landCopy.header}</h1>
-            <p>{props.landCopy.blurb}</p>
-            <p id="more-blurb">{props.landCopy.moreBlurb}</p>
+            {getParagraphs()}
         </StyledMsgBox>
     );
 }

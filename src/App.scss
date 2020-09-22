@@ -88,6 +88,8 @@ a {
 }
 
 #landing-bottom {
+  flex: 1 0 auto; /* Fixes safari flexbox issue. */
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
